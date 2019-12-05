@@ -1,7 +1,8 @@
 class Monster:
     # The constructor. Initialize. When we create 'methods' within the class they receive the instance as the first
     # argument automatically. So we can now specify any other arguments we want to accept. Everything within the
-    # brackets are attributes/variables/properties of the monster class.
+    # brackets are attributes/variables/properties of the monster class. The init is essential so we are not required to
+    # repeat the same arguments in each concurrent method.
 
     def __init__(self, name, skills):
         self.name = name

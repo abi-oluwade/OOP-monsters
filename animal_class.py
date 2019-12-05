@@ -13,7 +13,10 @@ class Monster:
     def sleep(self):
         return "zzzzz *I can't wait to eat some kids* zzzzz"
 
-    # Each method within a class always takes the instance as the first argument, which is always called self.
+    # Each method within a class always takes the instance as the first argument, which is always called self. But can
+    # also take other arguments in the __init__, meaning if we want to pull for example the name in this method for
+    # sleep, we would not need to specify it in the definition and simply put 'self.name' and it will automatically
+    # do it for us.
 
     def eat(self):
         return "I'm awake and now I can't wait to eat some kids!"

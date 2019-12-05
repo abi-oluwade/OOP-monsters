@@ -42,3 +42,15 @@ Polymorphism == A concept of using common operation in different ways for differ
 The ability to change the methods and characteristics of instance of child classes.
 
 Abstraction == The concept of hiding complexity.
+
+Methods != functions Just like function, they can take in arguments, run a block of code.
+However, they can only be used by an instance of it's class.
+
+Attributes/variables == Hold information about our SPECIFIC object. Are set in the def init() method
+with arguments like any other function.
+
+__ init __ () AKA - Constructor or initializer. This method runs every time an object is created. So when you do:
+````
+animal1 = Animal('Fred', 10, 2)
+````
+self == refers to the object / instance

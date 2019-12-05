@@ -39,7 +39,8 @@ monster_3 = Monster('Yemi', ['Running', 'Jumping', 'Swimming'])
 
     # I created methods (which are similar but not equal to functions as they only operate withing instances of
     # the class) to do different actions. As we can see the methods can call on the arguments from the initial
-    # initialization meaning we do not need to individually input new parameters for each new monster
+    # initialization meaning we do not need to individually input new parameters for each new monster or every time
+    # we want to define a new method.
 
 
 print(monster_1.add_skill())
